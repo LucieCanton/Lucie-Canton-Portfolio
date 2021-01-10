@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Lucie Canton - accueil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 
@@ -17,6 +18,16 @@
     <header>
       <div class="header-image"></div>
       <div class="header-content">
+        <div class="header-fixed header-side">
+          <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a>  </diw>
+          <div class="header-links-content">
+            <ul class="header-links-list">
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="mestravaux.html">MES TRAVAUX</a></li>
+              <li><a href="apropos.html">À PROPOS</a></li>
+            </ul>
+          </div>
+        </div>
         <div class="header-side">
           <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a>  </diw>
           <div class="header-links-content">
@@ -40,78 +51,71 @@
     </header>
 
     <content>
-      <div class="full-screen">
-        <div class="text">
-          <h3 class="paragraph-title">À propos</h3>
-          <div class="paragraph">
-            Bonjour, je m’appelle Lucie Canton et j’ai 19 ans. Actuellement, je suis en deuxième année du DUT Métiers du Multimédia et de l’Internet à Bordeaux.
-            <br>
-            Très jeune, les domaines de la photo, de la vidéo, mais aussi de l’audiovisuel ont commencé à me passionner. <br>
-            À mes débuts, je réalisais des petits sketchs avec le caméscope familial. <br>
-            Dès 14 ans, j’ai participé à mon premier concours audiovisuel. Mon documentaire sur une tradition landaise obtient le premier prix. <br>
-            <br>
-            La création fait partie de mes passions mais pas seulement. Pendant 10 ans j’ai pratiqué le basket-ball au poste de meneuse dans le club BCA (Basket Côte Atlantique). <br>
-            A l’âge de 8 ans je débute les cours de musique et de solfège, j’y apprend le cor d’harmonie. <br>
-            <br>
-            Aujourd’hui, la musique, la vidéo et la photo sont toujours au centre de mes intérêts, mais je peux aussi y ajouter l’infographie et le graphisme. <br>
-            Mon souhait ? Travailler dans les domaines de la communication et de la création de contenus numériques. <br>
-            <br>
-            C’est avec plaisir, créativité et professionnalisme que je mettrai à jour vos projets. <br>
-            <br>
-            N’hésitez pas à me contacter !
-            <br>
+      <div class="container">
+        <section class="page-section about-section row">
+          <div class="about-section-text col-12 col-lg-8">
+            <h3 class="about-section-title">À propos</h3>
+            <div class="about-section-paragraph">
+              Bonjour, je m’appelle Lucie Canton et j’ai 19 ans. Actuellement, je suis en deuxième année du DUT Métiers du Multimédia et de l’Internet à Bordeaux.
+              <br>
+              Très jeune, les domaines de la photo, de la vidéo, mais aussi de l’audiovisuel ont commencé à me passionner. <br>
+              À mes débuts, je réalisais des petits sketchs avec le caméscope familial. <br>
+              Dès 14 ans, j’ai participé à mon premier concours audiovisuel. Mon documentaire sur une tradition landaise obtient le premier prix. <br>
+              <br>
+              La création fait partie de mes passions mais pas seulement. Pendant 10 ans j’ai pratiqué le basket-ball au poste de meneuse dans le club BCA (Basket Côte Atlantique). <br>
+              A l’âge de 8 ans je débute les cours de musique et de solfège, j’y apprend le cor d’harmonie. <br>
+              <br>
+              Aujourd’hui, la musique, la vidéo et la photo sont toujours au centre de mes intérêts, mais je peux aussi y ajouter l’infographie et le graphisme. <br>
+              Mon souhait ? Travailler dans les domaines de la communication et de la création de contenus numériques. <br>
+              <br>
+              C’est avec plaisir, créativité et professionnalisme que je mettrai à jour vos projets. <br>
+              <br>
+              N’hésitez pas à me contacter !
+              <br>
+            </div>
+              
+            <a href="apropos.html" class="button">Voir plus</a>
           </div>
-          <button class="button">
-                Voir plus
-          </button>    
-        </div>
-        <div class="paragraph-image"> <img src="àpropos.jpg" alt="portrait Lucie"></div>
+          <div class="about-section-image col-12 col-lg-4"> <img src="àpropos.jpg" alt="portrait Lucie"></div>
+        </section>
       </div>
-
     </content>
     
-    
-    
-    <footer>
-      <div class="contener-col">
-        <div class="collogo">
-          <img class="footer-logo" src="logoblanc.png" alt="logo">
-        </div>
-        <div class="col">
-          <div class="footer-titre">Explorer</div>
-          <div class="footer-row">
-            <ul class="links-explorer-list">
-              <li><a href="index.html">Menu</a></li>
-              <li><a href="mestravaux.html">Mes travaux</a></li>
-            </ul>
-            <ul class="links-explorer-list">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="Àpropos.html">À propos</a></li>
-            </ul>
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="footer-image-section col-md-2">
+            <img class="footer-logo" src="logoblanc.png" alt="logo">
+          </div>
+          <div class="footer-section col-md-3">
+            <div class="footer-titre">Explorer</div>
+            <div class="footer-row">
+              <ul class="row">
+                <li class="col-6"><a href="index.html">Menu</a></li>
+                <li class="col-6"><a href="mestravaux.html">Mes travaux</a></li>
+                <li class="col-6"><a href="contact.html">Contact</a></li>
+                <li class="col-6"><a href="Àpropos.html">À propos</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section col-md-3">
+            <div class="footer-titre">Me suivre</div>
+            <div class="footer-row">
+              <ul class="row">
+                <li class="col-6"><a href="index.html"> <img src="behancelogo.png" alt=""> Behance</a></li>
+                <li class="col-6"><a href="mestravaux.html"><img src="facebooklogo.png" alt=""> Facebook</a></li>
+                <li class="col-6"><a href="contact.html"> <img src="linkedinlogo.png" alt=""> Linkedin</a></li>
+                <li class="col-6"><a href="Àpropos.html"><img src="instagramlogo.png" alt=""> Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-section col-md-3">
+            <div class="footer-titre">Me contacter</div>
+              <p class="commetuveux"><img src="maillogo.png" alt=""> luciecanton.40@gmail.com </p>
+              <p class="commetuveux"><img src="logoRS.png" alt=""> Mes réseaux</p>
           </div>
         </div>
-        <div class="col">
-          <div class="footer-titre">Me suivre</div>
-          <div class="footer-row">
-            <ul class="links-explorer-list">
-              <li><a href="index.html"> <img src="behancelogo.png" alt=""> Behance</a></li>
-              <li><a href="mestravaux.html"><img src="facebooklogo.png" alt=""> Facebook</a></li>
-            </ul>
-            <ul class="links-explorer-list">
-              <li><a href="contact.html"> <img src="linkedinlogo.png" alt=""> Linkedin</a></li>
-              <li><a href="Àpropos.html"><img src="instagramlogo.png" alt=""> Instagram</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col">
-          <div class="footer-titre">Me contacter</div>
-            <p class="commetuveux"><img src="maillogo.png" alt=""> luciecanton.40@gmail.com </p>
-            <p class="commetuveux"><img src="logoRS.png" alt=""> Mes réseaux</p>
-        </div>
-      </div>
-
-
-
+      </div>  
     </footer>
 </body>
 </html>
