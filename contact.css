@@ -1,0 +1,25 @@
+.header-image-contact{
+    position:relative;
+    width: 100%;
+    height:100%;
+    background-image: url(photocontact.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.title-Pagecontact{
+    font-size : 30px;
+    font-family: 'Poppins-Bold';
+    color:black;
+    margin: 40px 0 30px 17vw;
+    
+}
+
+.blocgauche{
+    width: 50%;
+    float:left;
+    background-color:red;
+}

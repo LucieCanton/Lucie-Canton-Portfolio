@@ -1,0 +1,27 @@
+.header-image-apropos{
+    position:relative;
+    width: 100%;
+    height:100%;
+    background-image: url(photoapropos.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apropos{
+    font-size : 30px;
+    font-family: 'Poppins-Bold';
+    color:black;
+    margin: 40px 0 30px 17vw;
+    
+}
+
+.name {
+    font-family: 'Poppins-Bold';
+    font-size:20px;
+}
+
+.job {
+    font-family: 'Poppins médium';
+    font-size:15px;
+}

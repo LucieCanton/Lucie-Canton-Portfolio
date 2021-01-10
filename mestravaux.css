@@ -1,0 +1,67 @@
+.header-image-mesTravaux{
+    position:relative;
+    width: 100%;
+    height:100%;
+    background-image: url(photomestravaux.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-Page{
+    color: black;
+    font-family:'Poppins-Bold';
+}
+
+.contener ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10vh 0 10vh 0;
+}
+
+.contener ul a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3vw;
+    font-family:'Poppins médium';
+}
+
+.grid-imgs{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15vw 0 15vw;
+    flex-wrap: wrap;
+}
+
+.grid-imgs img {
+    width: 300px;
+    margin: 0 1vw 1vw 0;
+}
+
+#Autre{
+    margin-left: 42vw;
+}
+
+.grid-video{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15vw 0 15vw;
+    flex-wrap: wrap;
+}
+
+.travaux{
+    font-size : 60px;
+    font-family: 'Poppins-Bold';
+    color:black;
+    margin: 40px 0 30px 35vw;
+    
+}
+
+iframe{
+    margin: 10px 0 10px 0;
+}
