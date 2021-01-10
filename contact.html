@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="apropos.css">
@@ -18,6 +19,16 @@
     <header>
         <div class="header-image-contact"></div>
         <div class="header-content">
+          <div class="header-fixed header-side">
+            <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a>  </diw>
+            <div class="header-links-content">
+              <ul class="header-links-list">
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="mestravaux.html">MES TRAVAUX</a></li>
+                <li><a href="apropos.html">À PROPOS</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="header-side">
             <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a> </diw>
             <div class="header-links-content">
@@ -47,47 +58,41 @@
 
       </content>
 
-
-      <footer>
-        <div class="contener-col">
-          <div class="collogo">
-            <img class="footer-logo" src="logoblanc.png" alt="logo">
-          </div>
-          <div class="col">
-            <div class="footer-titre">Explorer</div>
-            <div class="footer-row">
-              <ul class="links-explorer-list">
-                <li><a href="index.html">Menu</a></li>
-                <li><a href="mestravaux.html">Mes travaux</a></li>
-              </ul>
-              <ul class="links-explorer-list">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="Àpropos.html">À propos</a></li>
-              </ul>
+      <footer class="container-fluid">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="footer-image-section col-md-2">
+              <img class="footer-logo" src="logoblanc.png" alt="logo">
+            </div>
+            <div class="footer-section col-md-3">
+              <div class="footer-titre">Explorer</div>
+              <div class="footer-row">
+                <ul class="row">
+                  <li class="col-6"><a href="index.html">Menu</a></li>
+                  <li class="col-6"><a href="mestravaux.html">Mes travaux</a></li>
+                  <li class="col-6"><a href="contact.html">Contact</a></li>
+                  <li class="col-6"><a href="Àpropos.html">À propos</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-section col-md-3">
+              <div class="footer-titre">Me suivre</div>
+              <div class="footer-row">
+                <ul class="row">
+                  <li class="col-6"><a href="index.html"> <img src="behancelogo.png" alt=""> Behance</a></li>
+                  <li class="col-6"><a href="mestravaux.html"><img src="facebooklogo.png" alt=""> Facebook</a></li>
+                  <li class="col-6"><a href="contact.html"> <img src="linkedinlogo.png" alt=""> Linkedin</a></li>
+                  <li class="col-6"><a href="Àpropos.html"><img src="instagramlogo.png" alt=""> Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-section col-md-3">
+              <div class="footer-titre">Me contacter</div>
+                <p class="commetuveux"><img src="maillogo.png" alt=""> luciecanton.40@gmail.com </p>
+                <p class="commetuveux"><img src="logoRS.png" alt=""> Mes réseaux</p>
             </div>
           </div>
-          <div class="col">
-            <div class="footer-titre">Me suivre</div>
-            <div class="footer-row">
-              <ul class="links-explorer-list">
-                <li><a href="index.html"> <img src="behancelogo.png" alt=""> Behance</a></li>
-                <li><a href="mestravaux.html"><img src="facebooklogo.png" alt=""> Facebook</a></li>
-              </ul>
-              <ul class="links-explorer-list">
-                <li><a href="contact.html"> <img src="linkedinlogo.png" alt=""> Linkedin</a></li>
-                <li><a href="Àpropos.html"><img src="instagramlogo.png" alt=""> Instagram</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col">
-            <div class="footer-titre">Me contacter</div>
-              <p class="commetuveux"><img src="maillogo.png" alt=""> luciecanton.40@gmail.com </p>
-              <p class="commetuveux"><img src="logoRS.png" alt=""> Mes réseaux</p>
-          </div>
-        </div>
-  
-        
-  
+        </div>  
       </footer>
 </body>
 </html>

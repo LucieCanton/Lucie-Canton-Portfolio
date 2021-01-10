@@ -8,20 +8,34 @@
     background-size: cover;
 }
 
-.apropos{
-    font-size : 30px;
-    font-family: 'Poppins-Bold';
-    color:black;
-    margin: 40px 0 30px 17vw;
-    
+.inspiration-people-block {
+    text-align: center;
 }
 
-.name {
+.inspiration-people-block img {
+    width: 100%;
+}
+
+.discover-people-block {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discover-people-block img {
+    width: 100%;
+}
+
+
+.discover-people-block .name,
+.inspiration-people-block .name {
+    margin-bottom: 0;
     font-family: 'Poppins-Bold';
     font-size:20px;
 }
 
-.job {
+.discover-people-block .job,
+.inspiration-people-block .job {
+    margin-top: 0;
     font-family: 'Poppins médium';
     font-size:15px;
 }
