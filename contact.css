@@ -13,13 +13,28 @@
 .title-Pagecontact{
     font-size : 30px;
     font-family: 'Poppins-Bold';
-    color:black;
-    margin: 40px 0 30px 17vw;
-    
+    color:black;   
 }
 
 .blocgauche{
     width: 50%;
     float:left;
     background-color:red;
+}
+
+.contact-cont li p {
+    margin: 0;
+}
+
+.contact-cont p {
+    font-family: 'Poppins';
+}
+
+.contact-cont img {
+    width: 20px;
+    margin: 5px;
+}
+
+.contact-cont li {
+    margin: 0;
 }

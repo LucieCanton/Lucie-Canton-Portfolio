@@ -11,15 +11,47 @@
 
 <body>
 
-    <div class="mobileV"> 
-        <img class="footer-logo" src="logoblanc.png" alt="logo">
-        <p>La vertion mobile est en cours de développement. Merci</p>  
-      </div>
-
       
     <header>
+      
         <div class="header-image-mesTravaux"></div>
         <div class="header-content">
+
+          <div class="header-mobile" id="menu">
+            <div class="header-mobile-bar">
+              <img class="footer-logo" src="logoblanc.png" alt="logo">
+              <div id="menu-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21">
+                  <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(-3 -7.5)">
+                    <path id="Tracé_12" data-name="Tracé 12" d="M4.5,18h27" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                    <path id="Tracé_13" data-name="Tracé 13" d="M4.5,9h27" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                    <path id="Tracé_14" data-name="Tracé 14" d="M4.5,27h27" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="header-mobile-innner">
+              <svg version="1.1" id="menu-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 496.096 496.096" style="enable-background:new 0 0 496.096 496.096;" xml:space="preserve">
+              <g>
+                <g>
+                  <path d="M259.41,247.998L493.754,13.654c3.123-3.124,3.123-8.188,0-11.312c-3.124-3.123-8.188-3.123-11.312,0L248.098,236.686
+                    L13.754,2.342C10.576-0.727,5.512-0.639,2.442,2.539c-2.994,3.1-2.994,8.015,0,11.115l234.344,234.344L2.442,482.342
+                    c-3.178,3.07-3.266,8.134-0.196,11.312s8.134,3.266,11.312,0.196c0.067-0.064,0.132-0.13,0.196-0.196L248.098,259.31
+                    l234.344,234.344c3.178,3.07,8.242,2.982,11.312-0.196c2.995-3.1,2.995-8.016,0-11.116L259.41,247.998z"/>
+                </g>
+              </g>
+            </svg>
+              <ul>
+                <li><a href="index.html">Accueil.</a></li>
+                <li><a href="apropos.html">À propos.</a></li>
+                <li><a href="mestravaux.html">Mes travaux.</a></li>
+                <li><a href="contact.html">Contact.</a></li>
+              </ul>
+              <img class="footer-logo" src="logoblanc.png" alt="logo">
+            </div>
+            <script type="text/javascript" src="./menu.js"></script>
+          </div>
           <div class="header-fixed header-side">
             <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a>  </diw>
             <div class="header-links-content">
@@ -44,69 +76,135 @@
             <div>
               <h1 class="header-title">Mes travaux.</h1>
             </div>
+            <img class="scrollingIcon" src="scrollicon.png" alt="">
           </div>
         </div>
       </header> 
 
-<div class="contener">
-    <ul>
+<div class="container">
+    <div class="mestravaux-links">
+      <ul>
         <li><a href="#photographie">Photographie</a></li>
         <li><a href="#Graphisme">Graphisme</a></li>
         <li><a href="#Vidéographie">Vidéographie</a></li>
         <li><a href="#Autre">Autre</a></li>
-    </ul>
-
-    <h2 class="title-Page travaux" id="photographie" >Photographie.</h2>
-
-    <div class="grid-imgs">
-        <img src="moto1.jpg" alt="">
-        <img src="moto2.jpg" alt="">
-        <img src="moto3.jpg" alt="">
-        <img src="fête1.jpg" alt="">
-        <img src="fête2.jpg" alt="">
-        <img src="fête3.jpg" alt="">
-        <img src="christ1.jpg" alt="">
-        <img src="christ2.jpg" alt="">
-        <img src="christ3.jpg" alt="">
-        <img src="studio1.jpg" alt="">
-        <img src="studio2.jpg" alt="">
-        <img src="studio3.jpg" alt="">
-        <img src="noname1.jpg" alt="">
-        <img src="noname2.png" alt="">
-        <img src="noname3.jpg" alt="">
+      </ul>
     </div>
 
-    <h2 class="title-Page travaux" id="Graphisme" >Graphisme.</h2>
+    <section class="page-section">
+      <h2 class="title-Page travaux" id="photographie" >Photographie.</h2>
 
-    <div class="grid-imgs">
-        <img src="CONVERSEV2.jpg" alt="">
-        <img src="cartebanda.jpg" alt="">
-        <img src="wavies.jpg" alt="">
-        <img src="magmairie.jpg" alt="">
-        <img src="flyersmairie.jpg" alt="">
-        <img src="flyersintmairie.jpg" alt="">
-        <img src="goodfeelingcover.jpg" alt="">
-        <img src="goodfeeling.jpg" alt="">
-        <img src="goodfeelingmockup.JPG" alt="">
-    </div>
+      <div class="row">
+          <div class="col-md-4">
+            <img src="moto1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="moto2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="moto3.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="fête1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="fête2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="fête3.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="christ1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="christ2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="christ3.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="studio1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="studio2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="studio3.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="noname1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="noname2.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="noname3.jpg" alt="">
+          </div>
+      </div>
+    </section>
 
-    <h2 class="title-Page travaux" id="Vidéographie" >Vidéographie.</h2>
+    <section class="page-section">
+      <h2 class="title-Page travaux" id="Graphisme" >Graphisme.</h2>
 
-    <div class="grid-video">
-        <iframe width="940" height="543" src="https://www.youtube.com/embed/VZ1gK6baEGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="940" height="543" src="https://www.youtube.com/embed/i7kMjPkAWQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="940" height="543" src="https://www.youtube.com/embed/a_dYhx1N6Uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="940" height="543" src="https://www.youtube.com/embed/8d0GQAl2og0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    </div>
+      <div class="row">
+          <div class="col-md-4">
+            <img src="CONVERSEV2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="cartebanda.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="wavies.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="magmairie.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="flyersmairie.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="flyersintmairie.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="goodfeelingcover.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="goodfeeling.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="goodfeelingmockup.JPG" alt="">
+          </div>
+          
+      </div>
+    </section>
 
-    <h2 class="title-Page travaux" id="Autre" >Autre.</h2>
+    <section class="page-section">
+      <h2 class="title-Page travaux" id="Vidéographie" >Vidéographie.</h2>
+      <div class="grid-video">
+          <iframe width="940" height="543" src="https://www.youtube.com/embed/VZ1gK6baEGs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="940" height="543" src="https://www.youtube.com/embed/i7kMjPkAWQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="940" height="543" src="https://www.youtube.com/embed/a_dYhx1N6Uo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="940" height="543" src="https://www.youtube.com/embed/8d0GQAl2og0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
 
-    <div class="grid-imgs">
-        <img src="tranche1.jpg" alt="">
-        <img src="tranche2.jpg" alt="">
-        <img src="tranche3.jpg" alt="">
-    </div>
+    <section class="page-section">
+      <h2 class="title-Page travaux" id="Autre" >Autre.</h2>
+
+      <div class="row">
+          <div class="col-md-4">
+            <img src="tranche1.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="tranche2.jpg" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="tranche3.jpg" alt="">
+          </div>
+      </div>
+    </section>
+
+
 
 </div>
 

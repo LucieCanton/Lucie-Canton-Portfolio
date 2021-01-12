@@ -9,59 +9,53 @@
 }
 
 .title-Page{
+    text-align: center;
     color: black;
     font-family:'Poppins-Bold';
 }
 
-.contener ul{
+.mestravaux-links ul {
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10vh 0 10vh 0;
 }
 
-.contener ul a {
+@media (max-width: 991.98px) { 
+    .title-Page.travaux {
+        font-size: 30px;
+    }
+
+    .mestravaux-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.mestravaux-links ul a {
     text-decoration: none;
     color: black;
-    margin-left: 3vw;
+    font-size: 16px;
+    margin: 0 20px;
     font-family:'Poppins médium';
-}
-
-.grid-imgs{
-    width: 70vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15vw 0 15vw;
-    flex-wrap: wrap;
-}
-
-.grid-imgs img {
-    width: 300px;
-    margin: 0 1vw 1vw 0;
-}
-
-#Autre{
-    margin-left: 42vw;
-}
-
-.grid-video{
-    width: 70vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15vw 0 15vw;
-    flex-wrap: wrap;
 }
 
 .travaux{
     font-size : 60px;
     font-family: 'Poppins-Bold';
     color:black;
-    margin: 40px 0 30px 35vw;
+    margin: 40px 0;
     
 }
 
+.page-section img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 iframe{
-    margin: 10px 0 10px 0;
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
 }
