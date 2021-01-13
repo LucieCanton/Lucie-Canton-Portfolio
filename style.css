@@ -258,9 +258,10 @@ header a{
 
     .header-title {
         font-size: 34px;
+        line-height: 34px;
     }
     .header-subtitle {
-        font-size: 14.62px;
+        font-size: 20px;
     }
 
     .about-section-image {
