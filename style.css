@@ -156,7 +156,7 @@ header a{
 }
 
 .scrollingIcon {
-    position: fixed;
+    position: absolute;
     width: 17px;
     bottom: 20px;
     left: calc(50vw - 17px);
@@ -190,6 +190,7 @@ header a{
 .header-mobile-bar .footer-logo {
     height: 30px;
     width: 30px!important;
+    object-fit: contain;
 }
 
 @media (max-width: 991.98px) { 
