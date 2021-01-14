@@ -38,3 +38,8 @@
 .contact-cont li {
     margin: 0;
 }
+
+.followme-row{
+    display: flex;
+    align-items: center;
+}
