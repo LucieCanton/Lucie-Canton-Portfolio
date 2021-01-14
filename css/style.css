@@ -13,30 +13,30 @@ body.locked{
 
 @font-face{
     font-family: 'Poppins-Light';
-    src:url('Poppins-Light.ttf')
+    src:url('../fonts/poppins/Poppins-Light.ttf')
 }
 
 @font-face{
     font-family: 'Poppins-Regular';
-    src:url('Poppins-Regular.ttf')
+    src:url('../fonts/poppins/Poppins-Regular.ttf')
 }
 
 @font-face{
     font-family: 'Poppins-SemiBold';
-    src:url('Poppins-SemiBold.ttf')
+    src:url('../fonts/poppins/Poppins-SemiBold.ttf')
 }
 
 
 @font-face {
     font-family: 'Poppins-Bold';
-    src: url('Poppins-Bold.ttf')
+    src: url('../fonts/poppins/Poppins-Bold.ttf')
     
 
 }
 
 @font-face {
-    font-family: 'Poppins médium';
-    src: url('Poppins-Medium.ttf')
+    font-family: 'Poppins-medium';
+    src: url('../fonts/poppins/Poppins-Medium.ttf')
     
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 h2 {
     font-size : 43px;
-    font-family: 'Poppins médium';
+    font-family: 'Poppins-medium';
     color: white;
     margin:0;
 }
@@ -83,7 +83,7 @@ header{
     position:relative;
     width: 100%;
     height:100%;
-    background-image: url(photomenu21.jpg);
+    background-image: url(../img/ban/photomenu21.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ header a{
 
 .about-section-paragraph {
     padding-right: 20px;
-    font-family:'Poppins médium';
+    font-family:'Poppins-medium';
 }
 
 .button {
@@ -319,7 +319,7 @@ header a{
 	border:1px solid black;
 	display:inline-block;
 	color:black;
-	font-family:'Poppins médium';
+	font-family:'Poppins-medium';
 	font-size:15px;
 	padding:10px 68px;
 	text-decoration:none;

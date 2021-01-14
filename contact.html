@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="apropos.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/apropos.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
     <title>Lucie Canton - contact</title>
 </head>
@@ -18,7 +18,7 @@
         <div class="header-content">
           <div class="header-mobile" id="menu">
             <div class="header-mobile-bar">
-              <img class="footer-logo" src="logoblanc.png" alt="logo">
+              <img class="footer-logo" src="./img/logo/logoblanc.png" alt="logo">
               <div id="menu-bottom">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21">
                   <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(-3 -7.5)">
@@ -47,12 +47,12 @@
                 <li><a href="mestravaux.html">Mes travaux.</a></li>
                 <li><a href="contact.html">Contact.</a></li>
               </ul>
-              <img class="footer-logo" src="logoblanc.png" alt="logo">
+              <img class="footer-logo" src="./img/logo/logoblanc.png" alt="logo">
             </div>
-            <script type="text/javascript" src="./menu.js"></script>
+            <script type="text/javascript" src="./js/menu.js"></script>
           </div>
           <div class="header-fixed header-side">
-            <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a>  </diw>
+            <diw class="header-logo header-logo-fixed"> <a href="index.html"><img src="./img/logo/logo.svg" alt="logo"></a>  </diw>
             <div class="header-links-content">
               <ul class="header-links-list">
                 <li><a href="contact.html">CONTACT</a></li>
@@ -62,7 +62,7 @@
             </div>
           </div>
           <div class="header-side">
-            <diw class="header-logo"> <a href="index.html"><img src="logoblanc.png" alt="logo"></a> </diw>
+            <diw class="header-logo"> <a href="index.html"><img src="./img/logo/logoblanc.png" alt="logo"></a> </diw>
             <div class="header-links-content">
               <ul class="header-links-list">
                 <li><a href="contact.html">CONTACT</a></li>
@@ -75,7 +75,7 @@
             <div>
               <h1 class="header-title">Contact.</h1>
             </div>
-            <img class="scrollingIcon" src="scrollicon.png" alt="">
+            <a href="#contenu"><img class="scrollingIcon" src="./img/icons/scrollicon.png" alt=""></a>
           </div>
           
         </div>
@@ -83,25 +83,29 @@
 
 
       <content>
-        <div class="container mt-5 contact-cont">
+        <div class="container mt-5 contact-cont" id="contenu">
           <div class="row justify-content-around mt-5">
             <div class="col-md-4 ">
               <h2 class="title-Pagecontact" >Me contacter</h2>
-              <div class="row ml-0"><img src="Icon-mail-n.svg" alt=""><p>luciecanton.40@gmail.com</p></div>
+              <div class="row ml-0"><img src="./img/icons/social/Icon-mail-n.svg" alt="">
+                <p>luciecanton.40@gmail.com</p>
+              </div>
             </div>
             <div class="col-md-4 ">
               <h2 class="title-Pagecontact">Localisation</h2>
-              <div class="row ml-0"><img src="Icon-globe-n.svg" alt=""><p>Sud-Ouest - Bordeaux / Landes</p></div>
+              <div class="row ml-0"><img src="./img/icons/social/Icon-globe-n.svg" alt="">
+                <p>Sud-Ouest - Bordeaux / Landes</p>
+              </div>
             </div>
           </div>
           <div class="row justify-content-around mt-5">
             <div class="col-md-4">
               <h2 class="title-Pagecontact" >Me suivre</h2>
               <ul>
-                <li class="row"><img src="Icon-facebook-n.svg" alt=""><p>@luciecantonprod</p></li>
-                <li class="row"><img src="Icon-instagram-n.svg" alt=""><p>@luciecantonp</p></li>
-                <li class="row"><img src="Icon-behance-n.svg" alt=""><p>Lucie Canton</p></li>
-                <li class="row"><img src="Icon-linkedin-n.svg" alt=""><p>Lucie Canton</p></li>
+                <li class="row"><img src="./img/icons/social/Icon-facebook-n.svg" alt=""><p>@luciecantonprod</p></li>
+                <li class="row"><img src="./img/icons/social/Icon-instagram-n.svg" alt=""><p>@luciecantonp</p></li>
+                <li class="row"><img src="./img/icons/social/Icon-behance-n.svg" alt=""><p>Lucie Canton</p></li>
+                <li class="row"><img src="./img/icons/social/Icon-linkedin-n.svg" alt=""><p>Lucie Canton</p></li>
               </ul>
             </div>
             <div class="col-md-4">
@@ -118,9 +122,9 @@
         <div class="container">
           <div class="row justify-content-between">
             <div class="footer-image-section col-md-2">
-              <img class="footer-logo" src="logoblanc.png" alt="logo">
+              <img class="footer-logo" src="./img/logo/logoblanc.png" alt="logo">
             </div>
-            <div class="footer-section col-md-3">
+            <div class="footer-section col-lg-3">
               <div class="footer-titre">Explorer</div>
               <div class="footer-row">
                 <ul class="row">
@@ -131,21 +135,21 @@
                 </ul>
               </div>
             </div>
-            <div class="footer-section col-md-3">
+            <div class="footer-section col-lg-3">
               <div class="footer-titre">Me suivre</div>
               <div class="footer-row">
                 <ul class="row">
-                  <li class="col-6"><a href="index.html"> <img src="behancelogo.png" alt=""> Behance</a></li>
-                  <li class="col-6"><a href="mestravaux.html"><img src="facebooklogo.png" alt=""> Facebook</a></li>
-                  <li class="col-6"><a href="contact.html"> <img src="linkedinlogo.png" alt=""> Linkedin</a></li>
-                  <li class="col-6"><a href="Àpropos.html"><img src="instagramlogo.png" alt=""> Instagram</a></li>
+                  <li class="col-6"><a href="https://www.behance.net/luciecanton" target="_blank"> <img src="./img/icons/social/behancelogo.png" alt=""> Behance</a></li>
+                  <li class="col-6"><a href="https://www.facebook.com/luciecantonprod" target="_blank"><img src="./img/icons/social/facebooklogo.png" alt=""> Facebook</a></li>
+                  <li class="col-6"><a href="https://www.linkedin.com/in/lucie-canton-126572151/" target="_blank"> <img src="./img/icons/social/linkedinlogo.png" alt=""> Linkedin</a></li>
+                  <li class="col-6"><a href="https://www.instagram.com/luciecantonp" target="_blank"><img src="./img/icons/social/instagramlogo.png" alt=""> Instagram</a></li>
                 </ul>
               </div>
             </div>
-            <div class="footer-section col-md-3">
+            <div class="footer-section col-lg-3">
               <div class="footer-titre">Me contacter</div>
-                <p class="commetuveux"><img src="maillogo.png" alt=""> luciecanton.40@gmail.com </p>
-                <p class="commetuveux"><img src="logoRS.png" alt=""> Mes réseaux</p>
+                <p class="commetuveux"><a href="mailto:luciecanton.40@gmail.com" target="_blank"><img src="./img/icons/social/maillogo.png" alt=""> luciecanton.40@gmail.com </a></p>
+                <p class="commetuveux"><img src="./img/icons/social/logoRS.png" alt="">Mes réseaux</p>
             </div>
           </div>
         </div>  

@@ -2,7 +2,7 @@
     position:relative;
     width: 100%;
     height:100%;
-    background-image: url(photoapropos2.jpg);
+    background-image: url(../img/ban/photoapropos2.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@
 .discover-people-block .job,
 .inspiration-people-block .job {
     margin-top: 0;
-    font-family: 'Poppins médium';
+    font-family: 'Poppins-medium';
     font-size:15px;
 }
 
@@ -61,7 +61,7 @@
 .parcours .step {
     position: relative;
     width: 150px;
-    font-family: 'Poppins médium';
+    font-family: 'Poppins-medium';
     margin: 0 30px;
 }
 
