@@ -9,6 +9,8 @@ body.locked{
     overflow: hidden;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
 @font-face{
     font-family: 'Poppins-Light';
     src:url('Poppins-Light.ttf')
