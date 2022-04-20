@@ -1,0 +1,49 @@
+.header-image-contact{
+    position:relative;
+    width: 100%;
+    height:100%;
+    background-image: url(../img/ban/photocontact2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.title-Pagecontact{
+    font-size : 30px;
+    font-family: 'Poppins-Bold';
+    color:black;   
+}
+
+.blocgauche{
+    width: 50%;
+    float:left;
+    background-color:red;
+}
+
+.contact-cont li p {
+    margin: 0;
+}
+
+.contact-cont p {
+    font-family: 'Poppins-medium';
+}
+
+.contact-cont img {
+    width: 20px;
+    margin: 5px;
+}
+
+.contact-cont li {
+    margin: 0;
+}
+
+.followme-row{
+    display: flex;
+    align-items: center;
+}
+
+.followme-row p{
+    line-height: 16px;
+}
